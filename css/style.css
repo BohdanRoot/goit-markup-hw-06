@@ -959,8 +959,13 @@ margin-left: 95px;
         display: none;} }
 
 @media only screen and (max-width: 768px) {
-.strategy-container {
-    max-width: 736px;
+
+.strategy{
+    width: 768px;
+}
+
+    .strategy-container {
+    width: 736px;
     }
 .strategy-item-icons {
     display: none;
@@ -972,5 +977,36 @@ margin-left: 95px;
 
 .strategy-item {
     width: calc((100% - 24px) / 2);
+}
+
+.section-team {
+    width: 768px;
+}
+
+
+
+.team-container {
+    width: 736px;
+}
+
+.team-list {
+    gap: 24px;
+    padding-right: 108px;
+    padding-left: 108px;
+}
+
+.team-item{
+width: calc((100% - 24px) / 2);
+}
+
+.section-portfolio{
+    width: 768px;
+}
+
+.portfolio-container{
+    width: 736px;
+}
+.portfolio-item {
+    width: calc((100% - 48px) / 2);
 }
 }
